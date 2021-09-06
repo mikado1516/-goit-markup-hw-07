@@ -1,0 +1,46 @@
+.main {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 94px 0px;
+  flex-wrap: wrap;
+
+  &__tile {
+    width: 270px;
+    margin: 10px 15px;
+  }
+
+  &__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    color: getColor(header-primary);
+  }
+
+  &__graphic {
+    height: 120px;
+    width: 270px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background:getColor(bg-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__article {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:getColor(article-primary);
+  }
+
+  &__content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

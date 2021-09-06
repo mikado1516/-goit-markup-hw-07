@@ -1,0 +1,19 @@
+:root {
+  --main-font: "Roboto", "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+  --third-color: #ffffff;
+  --additional-color: #757575;
+  --greystyle-color: #afb1b8;
+}
+
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  margin: 0px auto;
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+$colors:(
+
+'header-primary': #212121,
+'header-secondary': #ffffff,
+'article-primary' : #757575,
+'article-secondary': #ffffff,
+'bg-primary':#2F303A,
+'bg-secondary':#F5F4FA,
+'bg-additional':#ffffff,
+'decorative-primary':#2196F3,
+'decorative-secondary':#afb1b8,
+'decorative-additional': #ffffff
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
