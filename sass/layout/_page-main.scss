@@ -1,11 +1,13 @@
-.main {
-  display: inline-flex;
+  .main {
+  display: block;
   justify-content: center;
   align-items: center;
   padding: 94px 0px;
   flex-wrap: wrap;
-
-  &__tile {
+  margin: 0 auto; 
+}
+ 
+ &__tile {
     width: 270px;
     margin: 10px 15px;
   }
@@ -43,4 +45,3 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-}
